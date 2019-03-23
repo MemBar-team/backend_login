@@ -4,14 +4,13 @@
 参考：http://docs.docker.jp/v1.10/swarm/swarm_at_scale/01-about.html
 
 #構成：
+- webserver:
+
+  - Nginx (docker 化)
 
 - frontend:
 
   - vue.js(docker 化)
-
-- webserver:
-
-  - Nginx (docker 化)
 
 - backend:
 
