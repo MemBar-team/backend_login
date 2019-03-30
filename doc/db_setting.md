@@ -1,7 +1,8 @@
 Login
 
-|論理名|物理名|データ型|主キー|
+| 論理名 | 物理名 | データ型 | 主キー |
 |---|:---:|---:|---:|
-|customer_id|カスタムID|STRING|○|
-|mail_adress|メールアドレス|STRING|○|
-|password|パスワード|INTEGER||
+| user_id | ユーザーID | STRING | ○ |
+| user_type | ユーザータイプ | INTEGER | ○ |
+| user_email | メールアドレス | STRING | ○ |
+| user_password | パスワード | STRING or CHRA | ○ |
