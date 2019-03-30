@@ -16,6 +16,10 @@
 - backend:
 
   - python-flask (docker 化)
-
+     - pythone : 3.7.2
+     - flask : 1.0.2
+     - SQLAlchemy 1.3.1
+     - Flask-HTTPAuth 3.2.4
+    
 - db:
   - mysql (docker 化)
